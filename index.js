@@ -9,6 +9,7 @@ function lowerCaseDrivers(drivers) {
 
 function separateStrings(names) {
   return names.split(' ');
+  let names = {
 }
 
 function nameToAttributes(drivernames) {
