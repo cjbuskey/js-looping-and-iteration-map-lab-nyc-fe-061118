@@ -26,5 +26,5 @@ function attributesToPhrase() {
     {name: 'Carson', hometown: 'Philadelphia'},
     {name: 'Alex', hometown: 'District of Columbia'}
     ]
-  
+  return drivers.map(console.log(`$(drivers)`)
 }
