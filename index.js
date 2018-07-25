@@ -21,5 +21,5 @@ function nameToAttributes(drivernames) {
 }
 
 function attributesToPhrase(drivers) {
-  return drivers.map(console.log(`${drivers[0]['name']} is from ${drivers[0]['hometown']}`))
+  return drivers.map(console.log(`${drivers[0].name} is from ${drivers[0].hometown}`))
 }
