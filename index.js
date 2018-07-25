@@ -1,5 +1,4 @@
 // Code your solution in this file.
-const drivers = []
 function lowerCaseDrivers(name) {
-  
+ const drivers = [] 
 }
