@@ -4,9 +4,5 @@ function lowerCase(name) {
 }
 
 function lowerCaseDrivers(drivers) {
-  return drivers.map(function(name) {
-    return name.toLocaleLowerCase()
-  });
-  
-  return drivers.map(name => name.toLocaleLowerCase());
+  return drivers.map(lowerCase());
 }
