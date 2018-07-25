@@ -8,7 +8,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function separateStrings(names) {
-  
+  return names.
 }
 
 function nameToAttributes(drivernames) {
