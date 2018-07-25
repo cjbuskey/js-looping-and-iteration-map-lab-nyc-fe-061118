@@ -21,10 +21,5 @@ function nameToAttributes(drivernames) {
 }
 
 function attributesToPhrase(drivers) {
-  const drivers = [
-    {name: 'Bobby', hometown: 'Pittsburgh'},
-    {name: 'Carson', hometown: 'Philadelphia'},
-    {name: 'Alex', hometown: 'District of Columbia'}
-    ]
   return drivers.map(`${drivers.name} is from ${drivers.hometown}`)
 }
