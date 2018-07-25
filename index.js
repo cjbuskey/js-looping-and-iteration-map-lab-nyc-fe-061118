@@ -8,8 +8,11 @@ function lowerCaseDrivers(drivers) {
 }
 
 function separateStrings(names) {
-  return names.split(' ');
+  names.split(' ');
   let names = {
+    firstName: 
+    lastName:
+  }
 }
 
 function nameToAttributes(drivernames) {
