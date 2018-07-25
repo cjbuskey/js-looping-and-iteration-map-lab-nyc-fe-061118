@@ -22,6 +22,7 @@ function nameToAttributes(drivernames) {
 
 function attributesToPhrase() {
   const drivers = [
-    {name: 
+    {name: 'Bobby', hometown: 'Pittsburgh'},
+    {
     ]
 }
