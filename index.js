@@ -13,6 +13,7 @@ function separateStrings(names) {
     firstName: newNames[0],
     lastName: newNames[1]
   }
+  return newNameObject;
 }
 
 function nameToAttributes(drivernames) {
