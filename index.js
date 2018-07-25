@@ -17,5 +17,5 @@ function separateStrings(names) {
 }
 
 function nameToAttributes(drivernames) {
-  return drivernames.map
+  return drivernames.map(separateStrings);
 }
