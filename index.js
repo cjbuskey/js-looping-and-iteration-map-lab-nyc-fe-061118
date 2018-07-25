@@ -20,3 +20,6 @@ function nameToAttributes(drivernames) {
   return drivernames.map(separateStrings);
 }
 
+function attributesToPhrase() {
+  
+}
