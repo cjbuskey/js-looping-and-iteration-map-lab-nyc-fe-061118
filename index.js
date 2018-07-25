@@ -20,6 +20,10 @@ function nameToAttributes(drivernames) {
   return drivernames.map(separateStrings);
 }
 
+function whereImFrom(drivers) {
+  return `${drivers.name} is from ${drivers.hometown}`;
+}
+
 function attributesToPhrase(drivers) {
-  return drivers.map(console.log(`${drivers.name} is from ${drivers.hometown}`))
+  return drivers.map(whereImFrom)
 }
